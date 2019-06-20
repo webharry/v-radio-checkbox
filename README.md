@@ -3,11 +3,11 @@
 An vue radio/checkbox components
 
 ## Demo
-[Live Demo](https://webharry.github.io/vselect/)
+[Live Demo](https://webharry.github.io/v-radio-checkbox/)
 
 ## Installation：
 ```shell
-npm install --save-dev v-radiio-checkbox
+npm install --save-dev v-radio-checkbox
 ```
 
 ## How to use
