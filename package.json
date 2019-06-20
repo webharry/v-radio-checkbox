@@ -2,7 +2,7 @@
   "name": "v-radio-checkbox",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/radio-checkbox.js",
+  "main": "dist/v-radio-checkbox.js",
   "scripts": {
     "build": "webpack --config build/webpack.prod.conf.js",
     "build:demo": "webpack --config build/webpack.demo.conf.js",
@@ -22,8 +22,6 @@
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
-    "less": "^3.0.4",
-    "less-loader": "^4.1.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",

@@ -2,13 +2,10 @@ const merge = require('webpack-merge');
 const webpackBaseConfig = require('./webpack.base.conf')
 
 module.exports = merge(webpackBaseConfig, {
-    entry: {
-        radio: './src/components/radio/radio.vue',
-        checkbox: './src/components/checkbox/checkbox.vue',
-    },
+    entry: './src/index.js',
     mode:'production',
     output: {
-        filename:'[name].js',
+        filename:'v-radio-checkbox.js',
         libraryTarget:'commonjs2'//导出库的类型遵循commonJS
     }
 })
